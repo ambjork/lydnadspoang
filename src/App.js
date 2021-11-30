@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import InputBoxContainer from './components/InputBoxContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello Woooorld!
+        Poäng
       </header>
+      <InputBoxContainer />
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.inputbox-container {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, 60px);
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: row;
+    
+  }
+
+  .title {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+
+  .inputbox-input {
+    height: 50px;
+    font-size: 20pt;
+  }
